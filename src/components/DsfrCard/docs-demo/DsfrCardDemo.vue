@@ -5,6 +5,8 @@ import { getCurrentInstance } from 'vue'
 import DsfrCard from '../DsfrCard.vue'
 import DsfrTags from '../../DsfrTag/DsfrTags.vue'
 
+import type { DsfrBadgeProps } from '../../DsfrBadge/DsfrBadge.types'
+
 const app = getCurrentInstance()
 app?.appContext.app.component('VICon', VICon)
 
@@ -31,6 +33,17 @@ const exampleTags = [
     label: 'Tag4',
   },
 ]
+
+const exampleBadges = [
+  {
+    label: 'Badge info',
+    type: 'info',
+  },
+  {
+    label: 'Badge success',
+    type: 'success',
+  },
+] as DsfrBadgeProps[]
 </script>
 
 <template>
@@ -44,6 +57,7 @@ const exampleTags = [
       :end-detail="endDetail"
       :end-detail-icon="endDetailIcon"
       :alt-img="altImg"
+      :badges="exampleBadges"
       title="Titre de la carte"
       size="large"
       ratio-img="large"

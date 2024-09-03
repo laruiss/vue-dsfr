@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import { computed, ref } from 'vue'
 import DsfrButtonGroup from '../DsfrButton/DsfrButtonGroup.vue'
+import DsfrBadge from '../DsfrBadge/DsfrBadge.vue'
 import type { DsfrCardProps } from './DsfrCard.types'
 import DsfrCardDetail from './DsfrCardDetail.vue'
 import type { RouterLink } from 'vue-router'
@@ -17,6 +18,7 @@ const props = withDefaults(defineProps<DsfrCardProps>(), {
   altImg: '',
   buttons: () => [],
   linksGroup: () => [],
+  badges: () => [],
   titleTag: 'h3',
   size: 'md',
   imgRatio: 'md',
@@ -155,10 +157,13 @@ defineExpose({ goToTargetLink })
       </div>
     </div>
     <div
-      v-if="imgSrc"
+      v-if="imgSrc || badges.length"
       class="fr-card__header"
     >
-      <div class="fr-card__img">
+      <div
+        v-if="imgSrc"
+        class="fr-card__img"
+      >
         <img
           :src="imgSrc"
           class="fr-responsive-img"
@@ -169,6 +174,18 @@ defineExpose({ goToTargetLink })
           et ne doit pas être restituée aux technologies d’assistance. Vous pouvez toutefois remplir l'alternative si vous
           estimez qu'elle apporte une information essentielle à la compréhension du contenu non présente dans le texte -->
       </div>
+      <ul
+        v-if="badges.length"
+        class="fr-badges-group"
+        data-testid="card-badges"
+      >
+        <li
+          v-for="(badge, index) in badges"
+          :key="index"
+        >
+          <DsfrBadge v-bind="badge" />
+        </li>
+      </ul>
     </div>
   </div>
 </template>

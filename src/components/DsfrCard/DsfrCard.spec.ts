@@ -33,6 +33,16 @@ describe('DsfrCard', () => {
     de contenu similaires. La carte n’est jamais présentée de manière isolée.`
     const imgSrc = 'https://loremflickr.com/300/200/cat'
     const altImg = 'Alternative text for image'
+    const badges = [
+      {
+        label: 'Badge info',
+        type: 'info',
+      },
+      {
+        label: 'Badge success',
+        type: 'success',
+      },
+    ]
 
     // When
 
@@ -50,6 +60,7 @@ describe('DsfrCard', () => {
         description,
         imgSrc,
         link,
+        badges,
       },
     })
 
@@ -66,5 +77,6 @@ describe('DsfrCard', () => {
     expect(getByTestId('fr-card')).toHaveClass('fr-card')
     expect(getByTestId('card-img')).toHaveAttribute('src', imgSrc)
     expect(getByTestId('card-img')).toHaveAttribute('alt', altImg)
+    expect(getByTestId('card-badges')).toHaveClass('fr-badges-group')
   })
 })

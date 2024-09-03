@@ -1,6 +1,7 @@
 import type { RouteLocationRaw } from 'vue-router'
 
 import type { DsfrButtonProps } from '../DsfrButton/DsfrButton.types'
+import type { DsfrBadgeProps } from '../DsfrBadge/DsfrBadge.types'
 import type { CustomizeIconType } from 'oh-vue-icons'
 
 export type DsfrCardDetailProps = {
@@ -19,6 +20,7 @@ export type DsfrCardProps = {
   endDetailIcon?: DsfrCardDetailProps['icon']
   altImg?: string
   titleTag?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
+  badges?: DsfrBadgeProps[]
   buttons?: DsfrButtonProps[]
   linksGroup?: {
     label: string

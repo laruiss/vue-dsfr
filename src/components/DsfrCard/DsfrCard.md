@@ -39,6 +39,7 @@ Autres props :
 | `description`          | *`string`*  |                 | ✅                 | Description de la carte |
 | `altImg`               | *`string`*  | `''`            |                    | Contenu de l’attribut `alt` de l’image de la carte |
 | `buttons`              | [*`DsfrButtonProps[]`*](/types#dsfrbutton-et-dsfrbuttongroup)  | `[]`            |                    | Tableau de props à donner à DsfrButton |
+| `badges`              | [*`DsfrBadgeProps[]`*](/types#dsfrbadge)  | `[]`            |                    | Tableau de props à donner à DsfrBadge |
 | `detail`               | *`string`*  | `''`            |                    | Texte à mettre dans la première zone de détail |
 | `detailIcon`           | *`string`*  | `''`            |                    | Icône à mettre dans la première zone de détail ([nom d’une icône `oh-vue-icon` ou `DSFR`](/guide/icones)) |
 | `endDetail`            | *`string`*  | `''`            |                    | Texte à mettre dans la deuxième zone de détail |
@@ -61,7 +62,7 @@ cf. DSFR : [Composant - Carte](https://www.systeme-de-design.gouv.fr/elements-d-
 
 ## 📝 Exemples
 
-### 📝 Exemple avec tags sans actions
+### 📝 Exemple avec tags et badges dans l’en-tête sans actions
 
 ::: code-group
 

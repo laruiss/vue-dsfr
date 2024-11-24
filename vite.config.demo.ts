@@ -4,6 +4,7 @@ import { fileURLToPath, URL } from 'node:url'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import { defineConfig, type UserConfig } from 'vite'
+import UnoCSS from 'unocss/vite'
 
 const isVitepress = process.env.VITEPRESS === 'true'
 
@@ -11,6 +12,7 @@ const config: UserConfig = {
   plugins: [
     vue(),
     vueJsx(),
+    UnoCSS(),
   ],
   resolve: {
     alias: {

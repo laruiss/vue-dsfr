@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import { Icon } from '@iconify/vue'
 import { computed, nextTick, onMounted, ref, watch } from 'vue'
 
 import type { VIconProps } from './VIcon.types'
@@ -42,33 +41,31 @@ async function setTitle () {
 }
 onMounted(setTitle)
 
-const finalName = computed(() => {
-  return props.name?.startsWith('vi-') ? props.name.replace(/vi-(.*)/, 'vscode-icons:$1') : props.name ?? ''
-})
 const finalColor = computed(() => {
   return props.color ?? props.fill ?? 'inherit'
 })
 </script>
 
 <template>
-  <Icon
+  <span
     ref="icon"
-    :icon="finalName"
+    class="vicon"
     :style="{ fontSize, verticalAlign, display }"
     :aria-label="label"
-    class="vicon"
-    :class="{
-      'vicon-spin': props.animation === 'spin',
-      'vicon-wrench': props.animation === 'wrench',
-      'vicon-pulse': props.animation === 'pulse',
-      'vicon-spin-pulse': props.animation === 'spin-pulse',
-      'vicon-flash': props.animation === 'flash',
-      'vicon-float': props.animation === 'float',
-      'vicon-ring': props.animation === 'ring',
-      'vicon-slow': props.speed === 'slow',
-      'vicon-fast': props.speed === 'fast',
-      'vicon-inverse': props.inverse,
-    }"
+    :class="[
+      `i-${name}`,
+      {
+        'vicon-spin': props.animation === 'spin',
+        'vicon-wrench': props.animation === 'wrench',
+        'vicon-pulse': props.animation === 'pulse',
+        'vicon-spin-pulse': props.animation === 'spin-pulse',
+        'vicon-flash': props.animation === 'flash',
+        'vicon-float': props.animation === 'float',
+        'vicon-ring': props.animation === 'ring',
+        'vicon-slow': props.speed === 'slow',
+        'vicon-fast': props.speed === 'fast',
+        'vicon-inverse': props.inverse,
+      }]"
     :flip
     :ssr
   />

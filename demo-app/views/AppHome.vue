@@ -101,7 +101,10 @@ const activeAccordion = ref(-1)
   <span class="fr-fi-search-line" />
 
   <p class="fr-my-2w">
-    <DsfrButton @click="toaster.addMessage({ description: 'Message pour l’utilisateur', type: 'info' })">
+    <DsfrButton
+      icon="ri-search-line"
+      @click="toaster.addMessage({ description: 'Message pour l’utilisateur', type: 'info' })"
+    >
       Cliquer pour voir une alerte
     </DsfrButton>
   </p>

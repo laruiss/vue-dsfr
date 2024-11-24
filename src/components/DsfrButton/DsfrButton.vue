@@ -25,10 +25,10 @@ const focus = () => {
 defineExpose({ focus })
 
 const dsfrIcon = computed(() => typeof props.icon === 'string' && props.icon.startsWith('fr-icon-'))
-const defaultScale = computed(() => props.iconOnly ? 1.25 : 0.8325)
+const defaultScale = 1.25
 const iconProps = computed(() => typeof props.icon === 'string'
-  ? { scale: defaultScale.value, name: props.icon }
-  : { scale: defaultScale.value, ...props.icon },
+  ? { scale: defaultScale, name: props.icon }
+  : { scale: defaultScale, ...props.icon },
 )
 </script>
 

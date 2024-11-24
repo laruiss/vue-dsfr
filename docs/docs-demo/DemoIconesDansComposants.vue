@@ -9,7 +9,7 @@ import DsfrButton from '../../src/components/DsfrButton/DsfrButton.vue'
     </DsfrButton>
 
     <DsfrButton icon="ri-close-line">
-      Texte avec icône @iconify/vue
+      Texte avec icône unocss
     </DsfrButton>
 
     <DsfrButton
@@ -17,7 +17,7 @@ import DsfrButton from '../../src/components/DsfrButton/DsfrButton.vue'
       secondary
     >
       Texte avec icône
-      <code>@iconify/vue</code>
+      <code>unocss</code>
       <span style="color: green"> verte </span>
       avec animation 'flash'
     </DsfrButton>

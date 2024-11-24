@@ -39,7 +39,8 @@ describe('DsfrNavigationMenuLink', () => {
 
     const link = getByTestId('nav-router-link')
     expect(link.innerHTML).toContain(text)
-    expect(link.innerHTML).toContain('<svg')
+    expect(link.innerHTML).toContain('<span')
+    expect(link.innerHTML).toContain('class="vicon')
     expect(link).toHaveAttribute('href', to)
   })
 

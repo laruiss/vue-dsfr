@@ -7,6 +7,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 import browserslist from 'browserslist'
 import { browserslistToTargets } from 'lightningcss'
 import { defineConfig, type UserConfig } from 'vite'
+import UnoCSS from 'unocss/vite'
 
 const projectDir = dirname(new URL(import.meta.url).pathname)
 
@@ -16,6 +17,7 @@ const config: UserConfig = {
   plugins: [
     vue(),
     vueJsx(),
+    UnoCSS(),
   ],
   resolve: {
     alias: {

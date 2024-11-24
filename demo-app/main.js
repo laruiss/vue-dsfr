@@ -12,6 +12,8 @@ import '@gouvfr/dsfr/dist/utility/utility.main.min.css'
 
 import '@gouvfr/dsfr/dist/utility/icons/icons.main.min.css'
 
+import 'uno.css'
+
 createApp(App)
   .use(router)
   .use(VueDsfr)

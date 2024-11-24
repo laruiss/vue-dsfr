@@ -11,6 +11,7 @@ import VIconLink from './VIconLink.vue'
 import './official-icons.css'
 import '@gouvfr/dsfr/dist/utility/icons/icons.main.css'
 import './style.css'
+import 'unocss'
 
 export default {
   extends: DefaultTheme,

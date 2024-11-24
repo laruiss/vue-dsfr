@@ -70,9 +70,9 @@
     "commitlint": "commitlint --edit"
   },
   "peerDependencies": {
-    "@iconify/vue": "^4.1.2",
+    "unocss": "^0.64.1",
     "vue": "^3.5.13",
-    "vue-router": "^4.4.3"
+    "vue-router": "^4.4.5"
   },
   "dependencies": {
     "@gouvfr/dsfr": "~1.12.1",
@@ -86,7 +86,7 @@
     "@chromatic-com/storybook": "^3.2.2",
     "@commitlint/cli": "^19.6.0",
     "@commitlint/config-conventional": "^19.6.0",
-    "@iconify/vue": "^4.1.2",
+    "@iconify-json/ri": "^1.2.3",
     "@playwright/test": "1.48.1",
     "@storybook/addon-a11y": "^8.4.5",
     "@storybook/addon-docs": "^8.4.5",
@@ -107,6 +107,7 @@
     "@testing-library/vue": "^8.1.0",
     "@types/jsdom": "^21.1.7",
     "@types/node": "^22.10.0",
+    "@unocss/preset-icons": "^0.64.1",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vitejs/plugin-vue-jsx": "^4.1.1",
     "@vue/test-utils": "^2.4.6",
@@ -137,6 +138,7 @@
     "start-server-and-test": "^2.0.8",
     "storybook": "^8.4.5",
     "typescript": "~5.6.2",
+    "unocss": "^0.64.1",
     "vite": "^6.0.0",
     "vite-node": "^2.1.6",
     "vite-plugin-full-reload": "^1.2.0",

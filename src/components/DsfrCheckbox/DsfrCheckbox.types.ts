@@ -6,7 +6,7 @@ export type DsfrCheckboxProps = {
   required?: boolean
   value: unknown
   checked?: boolean
-  modelValue: Array<unknown>
+  modelValue: boolean
   small?: boolean
   inline?: boolean
   label?: string
@@ -14,6 +14,8 @@ export type DsfrCheckboxProps = {
   validMessage?: string
   hint?: string
 }
+
+export type DsfrCheckboxSetOptions = (Omit<DsfrCheckboxProps, 'modelValue'> & InputHTMLAttributes)[]
 
 export type DsfrCheckboxSetProps = {
   titleId?: string
@@ -24,7 +26,7 @@ export type DsfrCheckboxSetProps = {
   errorMessage?: string
   validMessage?: string
   legend?: string
-  options?: (DsfrCheckboxProps & InputHTMLAttributes)[]
+  options?: (Omit<DsfrCheckboxProps, 'modelValue'> & InputHTMLAttributes)[]
   modelValue?: Array<unknown>
   ariaInvalid?: boolean
 }

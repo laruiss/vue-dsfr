@@ -1,6 +1,6 @@
 # En-têtes de tableau
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Bienvenue dans la documentation du composant `DsfrTableHeaders`! Ce composant est comme le maestro d'un orchestre, orchestrant l'affichage des en-têtes de vos tableaux Vue avec élégance et précision. Allons-y pour découvrir ses caractéristiques.
 
@@ -18,11 +18,11 @@ Bienvenue dans la documentation du composant `DsfrTableHeaders`! Ce composant es
 
 - **`DsfrTableHeadersProps`**: Un tableau composé d'objets ou de chaînes. Un objet peut avoir une propriété `text` (chaîne) pour le texte de l'en-tête et `headerAttrs` (objet) pour les attributs HTML supplémentaires à appliquer sur l'en-tête.
 
-## 🧩 Slots
+## 🧩 Slots
 
 Pas de slots spécifiques pour ce composant. Il s'agit principalement d'un composant utilitaire pour `DsfrTable`.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ### Exemple Basique
 

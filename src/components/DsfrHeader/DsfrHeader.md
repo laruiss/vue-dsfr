@@ -1,6 +1,6 @@
 # En-tête - `DsfrHeader`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Salut les développeurs ! Découvrez `DsfrHeader`, le composant d'en-tête ultra-flexible pour vos applications Vue. Conçu pour mettre en valeur votre service et vos partenaires avec style, il intègre une barre de recherche, des liens rapides, et même un emplacement pour un logo personnalisé. Préparez-vous à donner à votre application une tête bien pensée !
 
@@ -8,7 +8,7 @@ Salut les développeurs ! Découvrez `DsfrHeader`, le composant d'en-tête ultra
 
 <VIcon name="vi-file-type-storybook" /> La story sur l’en-tête sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrheader--docs)
 
-## Structure
+## 📐 Structure
 
 L’en-tête est composé :
 
@@ -43,7 +43,7 @@ L’en-tête est composé :
 | `closeMenuModalLabel` | *`string`*                  | `'Fermer'`           |             | Label du bouton de fermeture du menu en mode modal.                                   |
 | `homeLabel`           | *`string`*                  | `'Accueil'`          |             | Label de l'accueil composant le titre du lien présentant le service.                  |
 
-## 📡 Événements
+## 📡Événements
 
 | Nom               | Description                                      | Charge utile |
 |-------------------|--------------------------------------------------| ---- |
@@ -51,7 +51,7 @@ L’en-tête est composé :
 | search            | Émis lorsqu’une recherche est effectuée.         | Contenu (`string`) du champ de saisie pour la recherche |
 | languageSelect            | Émis lorsque l’utilisateur change la langue du site.         | Contenu (`string`) du champ de saisie pour la recherche |
 
-## 🧩 Slots
+## 🧩 Slots
 
 | Nom                  | Description                                                    |
 |----------------------|----------------------------------------------------------------|
@@ -61,7 +61,7 @@ L’en-tête est composé :
 | mainnav              | Slot pour le menu de navigation principal.               |
 | default              | Slot par défaut pour le contenu supplémentaire dans l'en-tête. |
 
-## 📝 Exemples
+## 📝 Exemples
 
 ::: code-group
 

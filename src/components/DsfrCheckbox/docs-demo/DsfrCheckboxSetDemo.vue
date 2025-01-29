@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 
 import DsfrCheckboxSet from '../DsfrCheckboxSet.vue'
+import type { DsfrCheckboxProps } from '../DsfrCheckbox.types'
 
 const modelValue1 = ref([])
 const modelValue2 = ref([])
@@ -10,7 +11,7 @@ const modelValue4 = ref([])
 const modelValue5 = ref([])
 const modelValue6 = ref([])
 
-const options1 = [
+const options1: Omit<DsfrCheckboxProps, 'modelValue'>[] = [
   {
     label: 'Première valeur',
     value: 'une chaîne en premier',
@@ -35,24 +36,24 @@ const options1 = [
 ]
 
 const options2 = structuredClone(options1).map(option => Object.fromEntries(
-  Object.entries(option).map(([key, value]) => [key, ['id', 'name'].includes(key) ? value.replace('name1', 'name2') : value]),
-))
+  Object.entries(option).map(([key, value]) => [key, ['id', 'name'].includes(key) ? (value as string).replace('name1', 'name2') : value]),
+)) as Omit<DsfrCheckboxProps, 'modelValue'>[]
 
 const options3 = structuredClone(options1).map(option => Object.fromEntries(
-  Object.entries(option).map(([key, value]) => [key, ['id', 'name'].includes(key) ? value.replace('name1', 'name3') : value]),
-))
+  Object.entries(option).map(([key, value]) => [key, ['id', 'name'].includes(key) ? (value as string).replace('name1', 'name3') : value]),
+)) as Omit<DsfrCheckboxProps, 'modelValue'>[]
 
 const options4 = structuredClone(options1).map(option => Object.fromEntries(
-  Object.entries(option).filter(([key]) => key !== 'hint').map(([key, value]) => [key, ['id', 'name'].includes(key) ? value.replace('name1', 'name4') : value]),
-))
+  Object.entries(option).filter(([key]) => key !== 'hint').map(([key, value]) => [key, ['id', 'name'].includes(key) ? (value as string).replace('name1', 'name4') : value]),
+)) as Omit<DsfrCheckboxProps, 'modelValue'>[]
 
 const options5 = structuredClone(options1).map(option => Object.fromEntries(
-  Object.entries(option).filter(([key]) => key !== 'hint').map(([key, value]) => [key, ['id', 'name'].includes(key) ? value.replace('name1', 'name5') : value]),
-))
+  Object.entries(option).filter(([key]) => key !== 'hint').map(([key, value]) => [key, ['id', 'name'].includes(key) ? (value as string).replace('name1', 'name5') : value]),
+)) as Omit<DsfrCheckboxProps, 'modelValue'>[]
 
 const options6 = structuredClone(options1).map(option => Object.fromEntries(
-  Object.entries(option).filter(([key]) => key !== 'hint').map(([key, value]) => [key, ['id', 'name'].includes(key) ? value.replace('name1', 'name6') : value]),
-))
+  Object.entries(option).filter(([key]) => key !== 'hint').map(([key, value]) => [key, ['id', 'name'].includes(key) ? (value as string).replace('name1', 'name6') : value]),
+)) as Omit<DsfrCheckboxProps, 'modelValue'>[]
 
 const errorMessage = 'Message d’erreur'
 const validMessage = 'Message de validation'

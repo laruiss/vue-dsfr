@@ -1,6 +1,6 @@
 # Tuile - `DsfrTile`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrTiles` utilise le composant .
 
@@ -10,7 +10,7 @@ Le composant `DsfrTiles` permet d'afficher une collection de tuiles ([`DsfrTile`
 
 <VIcon name="vi-file-type-storybook" /> La story sur la tuile sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrtiles--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 - `<DsfrTiles>` : Le composant principal.
   - Gère une liste de tuiles à afficher en grille.
@@ -23,15 +23,15 @@ Le composant `DsfrTiles` permet d'afficher une collection de tuiles ([`DsfrTile`
 | `tiles`       | `(DsfrTileProps & { containerClass: string })[]` | Tableau d'objets représentant les tuiles à afficher, incluant les props de `DsfrTile` et une classe personnalisée pour chaque conteneur. | `[]`              |
 | `horizontal`  | `boolean`                                 | Si vrai, affiche les tuiles en mode horizontal.                                      | `false`           |
 
-## 📡 Événements
+## 📡Événements
 
 Ce composant ne déclenche pas d'événements spécifiques.
 
-## 🧩 Slots
+## 🧩 Slots
 
 Ce composant n'utilise pas de slots.
 
-## 📝 Exemples
+## 📝 Exemples
 
 Le composant `DsfrTiles` utilise une boucle pour rendre chaque tuile dans une grille responsive. Il permet d'appliquer des classes spécifiques à chaque tuile et de définir si les tuiles doivent s'afficher horizontalement ou verticalement.
 

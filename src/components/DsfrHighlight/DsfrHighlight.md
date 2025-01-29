@@ -1,6 +1,6 @@
 # Mise en exergue - `DsfrHighlight`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 La mise en exergue permet à l’utilisateur de distinguer et repérer une information facilement.
 
@@ -10,7 +10,7 @@ Le composant `DsfrHighlight` est conçu pour mettre en exergue un texte ou un co
 
 <VIcon name="vi-file-type-storybook" /> La story sur le tag sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrtags--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 - `<DsfrHighlight>` : Le composant principal.
   - Affiche un texte avec un style de mise en valeur.
@@ -25,15 +25,15 @@ Le composant `DsfrHighlight` est conçu pour mettre en exergue un texte ou un co
 | `large`   | `boolean` | Si vrai, affiche le texte en grande taille.                   | `false`           |
 | `color`   | `string` | Doit être une des valeurs de couleurs du DSFR (ex. : `'green-emeraude'` ou `'brown-caramel'`)                   | `false`           |
 
-## 📡 Événements
+## 📡Événements
 
 Ce composant ne déclenche pas d'événements spécifiques.
 
-## 🧩 Slots
+## 🧩 Slots
 
 - `default` : Slot pour insérer du contenu personnalisé dans la mise en exergue.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ::: code-group
 

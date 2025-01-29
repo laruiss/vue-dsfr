@@ -1,6 +1,6 @@
 # Badges - `DsfrBadge`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le `DsfrBadge` est le super-héros des petites étiquettes ! Ce composant Vue est idéal pour afficher des informations courtes et importantes, comme des catégories, des étiquettes ou des statuts. C'est comme le fromage sur votre pizza : petit mais essentiel !
 
@@ -8,7 +8,7 @@ Le `DsfrBadge` est le super-héros des petites étiquettes ! Ce composant Vue es
 
 <VIcon name="vi-file-type-storybook" /> La story sur le badge sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrbadge--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 - Le composant est un élément `p` avec la classe `fr-badge`.
 - Props permettent de modifier l'apparence du badge selon les props : type (), présence d'icône, taille et gestion du texte trop long.

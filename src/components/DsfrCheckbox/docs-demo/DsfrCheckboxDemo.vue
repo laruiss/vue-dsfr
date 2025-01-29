@@ -77,6 +77,16 @@ const validMessage = 'Message de validation'
       :hint="hint"
       :valid-message="validMessage"
     />
+
+    <DsfrCheckbox
+      v-model="modelValue"
+      name="checkbox-readonly"
+      value="valide"
+      label="Case à cocher en lecture seule"
+      required
+      readonly
+      :hint="hint"
+    />
   </div>
 </template>
 

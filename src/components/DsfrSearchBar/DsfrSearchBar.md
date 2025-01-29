@@ -1,6 +1,6 @@
 # Barre de recherche - `DsfrSearchBar`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 La barre de recherche est un système de navigation qui permet à l'utilisateur d’accéder rapidement à un contenu en lançant une recherche sur un mot clé ou une expression.
 
@@ -27,12 +27,12 @@ La barre de recherche se compose des éléments suivants :
 | `large`     | `Boolean`| `false`           |             | Si `true`, utilise une version plus grande de la barre de recherche.    |
 | `disabled`  | `Boolean` | `false`          |             | Si `true`, désactive la barre de recherche.                             |
 
-## 📡 Événements
+## 📡Événements
 
 - **`update:modelValue`**: Événement émis lorsque la valeur de la barre de recherche est mise à jour.
 - **`search`**: Événement émis lors de l'exécution d'une recherche.
 
-## 📝 Exemple
+## 📝 Exemple
 
 ::: code-group
 

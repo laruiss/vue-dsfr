@@ -1,6 +1,6 @@
 # Onglets - `DsfrTabs`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant onglet permet aux utilisateurs de naviguer dans différentes sections de contenu au sein d’une même page.
 
@@ -10,7 +10,7 @@ Le système d'onglet aide à regrouper différents contenus dans un espace limit
 
 <VIcon name="vi-file-type-storybook" /> La story sur les onglets sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrtabs--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 Chaque onglet se compose des éléments suivants :
 
@@ -27,7 +27,7 @@ Si le nombre d’onglets dépasse la largeur du container, un scroll horizontal 
 | `modelValue` | `number`                  | `0`          |             | Index de l'onglet sélectionné au chargement (*existe depuis VueDsfr v6.0.0*).               |
 | `tabTitles`            | `string[]`                   | `[]`   |             | Titres des onglets avec les id des panneaux et onglets associés. |
 
-## 📡 Événements
+## 📡Événements
 
 |  nom                   |   donnée (*payload*) | détail de la donnée
 | ---------------------- |  ---------            | --- |
@@ -39,14 +39,14 @@ Depuis la v6, le composant `DsfrTabs` déclarant la prop `modelValue` et émetta
 Aussi, plus besoin, depuis la v6, d’utiliser le composable `useTabs()`. Cf. les exemples ci-dessous.
 :::
 
-## 🧩 Slots
+## 🧩 Slots
 
 | Nom          | Description                                                        |
 |--------------|--------------------------------------------------------------------|
 | `tab-items`    | Slot nommé pour insérer des titres d’onglets personnalisés. Si rempli, la prop `tabTitles` n’a aucun effet. |
 | `default`      | Slot par défaut pour le contenu des onglets.                       |
 
-## Les méthodes exposées
+## L es méthodes exposées
 
 - `DsfrTabs#renderTabs()`: permet de forcer le recalcul de la hauteur de l’onglet
 
@@ -109,7 +109,7 @@ activeTab.value = tabTitles.length - 1 // active le dernier onglet
 
 :::
 
-## 📝 Exemples
+## 📝 Exemples
 
 1. **Onglets Simples :**
 

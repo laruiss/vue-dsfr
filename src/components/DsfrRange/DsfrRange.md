@@ -1,6 +1,6 @@
 # Curseur - `DsfrRange`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Bienvenue dans la documentation du `DsfrRange`, un composant Vue qui va slider dans votre coeur comme un croissant bien chaud glisse dans votre petit déjeuner. Ce composant est un véritable couteau suisse pour les curseurs, capable de tout faire, de l'affichage simple à la gestion de valeurs doubles. Mettez vos ceintures, on décolle !
 
@@ -10,7 +10,7 @@ Les curseurs sont des entrées numériques qui permettent de voir graphiquement 
 
 <VIcon name="vi-file-type-storybook" /> La story sur le curseur importante sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrnotice--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 - Le composant est encapsulé dans une `div` avec la classe `fr-range-group`, qui peut afficher un message d'erreur via `message`.
 - Le `label` est affiché en haut, suivi par un texte d'indice (`hint`) si fourni.
@@ -42,7 +42,7 @@ Les curseurs sont des entrées numériques qui permettent de voir graphiquement 
 
 - **`update:modelValue`**: Émis lors de la modification de la valeur du curseur. Renvoie la nouvelle valeur.
 
-## 📝 Exemple
+## 📝 Exemple
 
 ::: code-group
 

@@ -95,7 +95,7 @@ Vous devriez voir 20.x.x
 - Faire des demandes dans [discussions](https://github.com/dnum-mi/vue-dsfr/discussions)
 - Rejoindre le [server Discord](https://discord.gg/jbBJ9769ZZ)
 
-### À propos des pull-requests
+### Àpropos des pull-requests
 
 Les commits doivent suivre la spécification des **[Commits Conventionnels](https://www.conventionalcommits.org/fr/v1.0.0/)** afin que
 l’outil de release automatique détecte les nouvelles fonctionnalités et les corrections d’anomalies.

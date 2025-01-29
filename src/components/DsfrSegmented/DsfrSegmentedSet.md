@@ -38,7 +38,7 @@ Le composant « contrôle segmenté » incite l'utilisateur à choisir entre
 1. **slot par défaut**: Permet de personnaliser les boutons radio individuellement.
 2. **Slot `legend`**: Permet de personnaliser la légende avec du contenu riche.
 
-## 📝 Exemple
+## 📝 Exemple
 
 ```vue
 <DsfrSegmentedSet

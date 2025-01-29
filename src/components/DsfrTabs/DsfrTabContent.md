@@ -1,12 +1,12 @@
 # Contenu d’onglet - `DsfrTabContent`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrTabContent` est conçu pour être utilisé comme panneau de contenu dans une interface à onglets. Il utilise une transition fluide pour animer l'affichage du contenu de l'onglet sélectionné.
 
 Ce composant **doit** s’utiliser dans un [`DsfrTabs`](/composants/DsfrTabs).
 
-## 📐 Structure
+## 📐 Structure
 
 - `<DsfrTabContent>` : Le composant principal.
   - Affiche le contenu associé à un onglet.
@@ -20,15 +20,15 @@ Ce composant **doit** s’utiliser dans un [`DsfrTabs`](/composants/DsfrTabs).
 | `panelId`   | `string`  | ID unique pour le panneau, utilisé pour l'accessibilité.         | `obligatoire`     |
 | `tabId`     | `string`  | ID unique de l'onglet associé, utilisé pour l'accessibilité.     | `obligatoire`     |
 
-## 📡 Événements
+## 📡Événements
 
 Ce composant ne déclenche pas d'événements spécifiques.
 
-## 🧩 Slots
+## 🧩 Slots
 
 - `default` : Slot pour insérer le contenu de l'onglet à afficher.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ::: code-group
 

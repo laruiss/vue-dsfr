@@ -1,6 +1,6 @@
 # Documentation du composant `DsfrFileUpload`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Bienvenue dans la documentation du composant `DsfrFileUpload`. Ce composant est l'équivalent numérique d'une balade dans les ruelles pittoresques de Montmartre, mais pour télécharger vos fichiers. Que ce soit pour des photos de vacances ou des documents importants, `DsfrFileUpload` rend le processus simple et élégant.
 
@@ -20,14 +20,14 @@ Bienvenue dans la documentation du composant `DsfrFileUpload`. Ce composant est 
 | `error`        | `string`    | `''`                    |               | Message d'erreur à afficher en cas de problème lors du téléchargement. |
 | `modelValue`   | `string`    | `''`                    |               | Valeur liée au modèle de l'input de téléchargement de fichier.|
 
-## 📡 Événements
+## 📡Événements
 
 | Nom                | Description                                                                        |
 |--------------------|------------------------------------------------------------------------------------|
 | `update:modelValue`| Événement émis lors de la mise à jour de la valeur du modèle liée au fichier.      |
 | `change`           | Événement émis lors du changement du fichier sélectionné.                           |
 
-## 📝 Exemples
+## 📝 Exemples
 
 Voici comment vous pourriez utiliser `DsfrFileUpload` :
 

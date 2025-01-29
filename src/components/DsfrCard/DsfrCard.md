@@ -1,6 +1,6 @@
 # Carte - `DsfrCard`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 La carte c'est tout simplement l'indispensable pour agrémenter vos sites et applications d'amuse-bouches esthétiques vers des contenus proposés. Il s'agit d'un composant permettant un aperçu d'une page et un lien vers cette dernière. Elle fait généralement partie d'une liste menant vers des contenus similaires.
 
@@ -10,7 +10,7 @@ La carte existe en trois tailles (LG, MD, SM) et deux formats (horizontal et ver
 
 <VIcon name="vi-file-type-storybook" /> La story sur la carte sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrcard--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 Une carte digne de ce nom se compose des éléments suivants :
 
@@ -60,9 +60,9 @@ Autres props :
 cf. DSFR : [Composant - Tag](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/tag) ou [Composant - Badge](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/badge) (jusqu'à 4 éléments)
 cf. DSFR : [Composant - Carte](https://www.systeme-de-design.gouv.fr/elements-d-interface/composants/carte/).
 
-## 📝 Exemples
+## 📝 Exemples
 
-### 📝 Exemple avec tags et badges dans l’en-tête sans actions
+### 📝Exemple avec tags et badges dans l’en-tête sans actions
 
 ::: code-group
 
@@ -74,7 +74,7 @@ cf. DSFR : [Composant - Carte](https://www.systeme-de-design.gouv.fr/elements-d-
 
 :::
 
-### 📝 Exemple avec actions sans tags
+### 📝Exemple avec actions sans tags
 
 ::: code-group
 

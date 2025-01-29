@@ -1,6 +1,6 @@
 # Modale - `DsfrModal`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 La modale permet de concentrer l’attention de l’utilisateur exclusivement sur une tâche ou un élément d’information, sans perdre le contexte de la page en cours. Ce composant nécessite une action de l’utilisateur afin d'être ouvert ou fermé.
 
@@ -10,7 +10,7 @@ Le composant `DsfrModal` est une fenêtre modale configurable, offrant des fonct
 
 <VIcon name="vi-file-type-storybook" /> La story sur la modale sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrmodal--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 La modale par défaut permet de mettre en évidence une information qui ne nécessite pas d’action de l’utilisateur. Elle s’affiche à la suite du clic sur un bouton.
 
@@ -36,16 +36,16 @@ Elle se compose des éléments suivants :
 | `closeButtonLabel`   | `string`                       | Label du bouton de fermeture˘.                                                                                 | `'Fermer'`                                                     |              |
 | `closeButtonTitle`   | `string`                       | Titre pour le bouton de fermeture (pour l'accessibilité).                                                      | `'Fermer la fenêtre modale'`                                   |              |
 
-## 📡 Événements
+## 📡Événements
 
 - `close` : Événement émis lorsque la modale est fermée.
 
-## 🧩 Slots
+## 🧩 Slots
 
 - `default` : Slot pour le contenu principal de la modale.
 - `footer` : Slot pour le pied de page de la modale, contenant les boutons d'action supplémentaires.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ### Modale simple
 

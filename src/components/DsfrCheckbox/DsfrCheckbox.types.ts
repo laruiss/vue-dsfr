@@ -9,11 +9,15 @@ export type DsfrCheckboxProps = {
   modelValue: Array<unknown>
   small?: boolean
   inline?: boolean
+  readonly?: boolean
+  readonlyOpacity?: number
   label?: string
   errorMessage?: string
   validMessage?: string
   hint?: string
 }
+
+type PropsWithoutModelValue = Omit<DsfrCheckboxProps, 'modelValue'>
 
 export type DsfrCheckboxSetProps = {
   titleId?: string
@@ -24,7 +28,7 @@ export type DsfrCheckboxSetProps = {
   errorMessage?: string
   validMessage?: string
   legend?: string
-  options?: (DsfrCheckboxProps & InputHTMLAttributes)[]
+  options?: (PropsWithoutModelValue & InputHTMLAttributes)[]
   modelValue?: Array<unknown>
   ariaInvalid?: boolean
 }

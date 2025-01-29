@@ -1,6 +1,6 @@
 # Interrupteur - `DsfrToggleSwitch`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le `DsfrToggleSwitch` est un composant Vue versatile, conçu pour permettre à l’utilisateur de faire un choix entre deux états opposés (activé / désactivé).
 
@@ -24,7 +24,7 @@ Le `DsfrToggleSwitch` est un composant Vue versatile, conçu pour permettre à l
 | `inactiveText` | `string`  | `Désactivé`             |             | Texte à afficher sous l'interrupteur lorsqu'il est désactivé              |
 | `noText`       | `boolean`  | `false`                |             | Désactive l'affichage de activeText et inactiveText                       |
 
-## 📡 Évenements
+## 📡Évenements
 
 `DsfrToggleSwitch` émet l'événement suivant :
 
@@ -32,11 +32,11 @@ Le `DsfrToggleSwitch` est un composant Vue versatile, conçu pour permettre à l
 |----------------------|--------------| -------------------------------------------------------------|
 | `update:modelValue`  | *`boolean`*  | Est émis lorsque la valeur de l'interrupteur change          |
 
-## 🧩 Slots
+## 🧩 Slots
 
 Aucun slot n'est prévu dans ce composant. Le contenu est entièrement basé sur les props.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ::: code-group
 

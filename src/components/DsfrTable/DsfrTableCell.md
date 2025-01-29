@@ -1,6 +1,6 @@
 # Cellule de tableau - `DsfrTableCell`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 `DsfrTableCell`, c'est la cellule magique de vos tableaux Vue ! Ce composant flexible gère l'affichage de chaque cellule, avec la possibilité d'inclure du texte, des composants personnalisés, et plus encore. Découvrons ensemble comment l'utiliser au mieux.
 
@@ -21,7 +21,7 @@ Utilisez la propriété component pour insérer des composants Vue personnalisé
 
 :::
 
-## 📝 Exemples
+## 📝 Exemples
 
 ### Exemple de Texte Simple
 

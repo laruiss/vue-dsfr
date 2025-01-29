@@ -1,6 +1,6 @@
 # Bouton FranceConnect(+) - `DsfrFranceConnect`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le bouton FranceConnect permet à une administration (ou un fournisseur de logiciel agissant pour le compte d’une administration) de proposer une connexion ou une création de compte simplifiée.
 
@@ -14,7 +14,7 @@ Le bouton FranceConnect est primordial dans l’usage du service FranceConnect. 
 
 <VIcon name="vi-file-type-storybook" /> La story sur le bouton FranceConnect sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrfranceconnect--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 - Contient un bouton pour la connexion via FranceConnect.
 - Inclut un lien d'aide pour plus d'informations sur FranceConnect.
@@ -26,15 +26,15 @@ Le bouton FranceConnect est primordial dans l’usage du service FranceConnect. 
 | `secure`      | `boolean` | Indique si le bouton doit utiliser la version sécurisée FranceConnect+.  | `false`                                           |
 | `url`         | `string`  | URL personnalisée pour la connexion (ne doit servir que pour le développement).                                    | `undefined`                                       |
 
-## 📡 Événements
+## 📡Événements
 
 Ce composant ne déclenche pas d'événements spécifiques.
 
-## 🧩 Slots
+## 🧩 Slots
 
 Pas de slot.
 
-## 📝 Exemple
+## 📝 Exemple
 
 ::: code-group
 

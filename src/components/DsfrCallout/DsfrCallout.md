@@ -1,4 +1,4 @@
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrCallout` est un composant Vue.js qui permet de créer des encadrés de mise en avant avec un titre, un contenu, une icône optionnelle, et un bouton configurable. Il est conçu pour s'intégrer harmonieusement dans les projets utilisant le Design System Français (DSFR), tout en offrant une grande flexibilité grâce à la personnalisation des éléments visuels.
 
@@ -6,7 +6,7 @@ Le composant `DsfrCallout` est un composant Vue.js qui permet de créer des enca
 
 <VIcon name="vi-file-type-storybook" /> La story sur la mise en avant sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrcallout--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 Le composant `DsfrCallout` s'utilise pour afficher un message ou une information importante dans un encadré visuellement distinct, avec un titre, une icône, du contenu textuel, et éventuellement un bouton d'action. Chaque partie de l'encadré peut être personnalisée via les propriétés du composant.
 
@@ -22,15 +22,15 @@ Voici les différentes propriétés que vous pouvez utiliser avec ce composant :
 | `icon`    | `string \| object \| undefined` | `undefined` | Icône affichée à gauche du titre. Peut être une chaîne pour une icône DSFR, un objet pour un composant `VIcon`, ou `undefined` si aucune icône n'est nécessaire. |
 | `content` | `string`               | **Obligatoire** | Texte principal de l'encadré, généralement une description ou un message important.                                                                       |
 
-## 📡 Événements
+## 📡Événements
 
 Ce composant ne déclenche pas d'événements personnalisés.
 
-## 🧩 Slots
+## 🧩 Slots
 
 - `default` : Contenu additionnel à afficher à l'intérieur de l'encadré. Ce slot est intégré dans la structure principale du composant et s'affiche sous le texte principal.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ::: code-group
 

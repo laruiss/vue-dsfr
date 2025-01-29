@@ -1,6 +1,6 @@
 # VIcon
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `VIcon` est un composant Vue.js permettant d'afficher des icônes avec une large gamme d'options de personnalisation, y compris des animations, des couleurs, et des tailles. Il est conçu pour être flexible et performant, avec une prise en charge des différentes options d'affichage, de flip, et de titres accessibles.
 
@@ -10,7 +10,7 @@ Il a exactement la même API que OhVueIcon, et utilise `@iconify/vue` sous le ca
 Les noms des icônes doivent être ceux de [Iconify-vue](https://icon-sets.iconify.design/).
 :::
 
-## 📐 Structure
+## 📐 Structure
 
 Le composant `VIcon` s'intègre facilement en utilisant la syntaxe suivante :
 
@@ -60,11 +60,11 @@ Voici les différentes propriétés que vous pouvez utiliser avec ce composant :
 | `ssr`          | `boolean`                           | `false`         | Active le rendu côté serveur (Server-Side Rendering).                                                                                                     |
 | `display`      | `'block' \| 'inline-block' \| 'inline'` | `'inline-block'` | Définit le mode d'affichage de l'icône.                                                                                                                |
 
-## 📡 Événements
+## 📡Événements
 
 Ce composant ne déclenche pas d'événements personnalisés.
 
-## 🧩 Slots
+## 🧩 Slots
 
 Ce composant ne contient pas de slots.
 

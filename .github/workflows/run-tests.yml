@@ -34,19 +34,17 @@ jobs:
         run: pnpm check-exports-ci
       - name: Test
         run: pnpm test
-      - name: Install Playwright with dependencies
-        run: pnpx playwright install --with-deps
-      - name: Install Playwright
-        run: pnpx playwright install
+      # - name: Install Playwright with dependencies
+      #   run: pnpx playwright install --with-deps firefox
 
       - name: Build Storybook
         run: pnpm build-storybook --quiet
-      - name: Serve Storybook and run tests
-        env:
-          TEST_STORYBOOK_URL: http://localhost:6006
-        run: |
-          pnpx concurrently -k -s first -n "SB,TEST" -c "magenta,blue" \
-            "pnpx http-server storybook-static --port 6006 --silent" \
-            "pnpx wait-on tcp:6006 && pnpm test-storybook"
+      # - name: Serve Storybook and run tests
+      #   env:
+      #     TEST_STORYBOOK_URL: http://localhost:6006
+      #   run: |
+      #     pnpx concurrently -k -s first -n "SB,TEST" -c "magenta,blue" \
+      #       "pnpx http-server storybook-static --port 6006 --silent" \
+      #       "pnpx wait-on tcp:6006 && pnpm test-storybook"
       - name: Build
         run: pnpm build

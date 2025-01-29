@@ -1,6 +1,6 @@
 # Groupe de Bouton radio (et bouton radio riche) - `DsfrRadioButtonSet`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Les groupes de boutons radio (riches) permettent d’éviter d’écrire plusieurs fois le composant [`DsfrRadioButton`](./DsfrRadioButton), il est fortement conseillé de l’utiliser plutôt que de répéter `DsfrRadioButton`.
 
@@ -209,7 +209,7 @@ const options = [
 - `hint` : Permet de personnaliser le contenu d'un hint.
 - `required-tip` : Permet d'ajouter un astérisque indiquant que le champ est obligatoire (fonctionne uniquement si l'attribut `required` est défini sur le composant).
 
-## 🪆 Relation avec `DsfrRadioButton`
+## 🪆 Relation avec `DsfrRadioButton`
 
 Le composant `DsfrRadioButtonSet` utilise le composant `DsfrRadioButton` pour rendre visuellement chaque option du groupe. Chaque bouton radio individuel hérite des props du composant `DsfrRadioButtonSet` excepté `modelValue`.
 

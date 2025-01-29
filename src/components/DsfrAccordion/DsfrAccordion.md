@@ -1,6 +1,6 @@
 # Accordéon - `DsfrAccordion`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Les accordéons permettent aux utilisateurs d'afficher et de masquer des sections de contenu présentés dans une page.
 
@@ -8,7 +8,7 @@ Les accordéons permettent aux utilisateurs d'afficher et de masquer des section
 
 <VIcon name="vi-file-type-storybook" /> La story sur l’accordéon sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfraccordion--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 Un accordéon est constitué des éléments suivants :
 
@@ -30,7 +30,7 @@ Autres props :
 | `titleTag`              | [*`TitleTag`*](/docs/types.md#title-tag)  |    `'h3'`        |              |
 | `id`                    | *`string`*                                | *random string*  |              |
 
-## 📡 Évenements
+## 📡Évenements
 
 Pas d'événements spécifiques émis directement par ce composant.
 
@@ -39,11 +39,11 @@ Pas d'événements spécifiques émis directement par ce composant.
 - **`title`** : Slot pour le contenu personnalisé du titre de l’accordéon. Si non utilisé, le texte fourni via la prop `title` sera utilisé.
 - **`default`** : Slot pour le contenu principal de l'accordéon, affiché dans la section repliable.
 
-## Utilisation
+## 📝 Exemples
 
 Ce composant peut être utilisé uniquement avec [`DsfrAccordionsGroup`](/composants/DsfrAccordionsGroup).
 
-## ⚙️ Code source du composant
+## ⚙️Code source du composant
 
 ::: code-group
 <<< DsfrAccordion.vue

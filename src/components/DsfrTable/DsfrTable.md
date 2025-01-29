@@ -1,6 +1,6 @@
 # Tableau - `DsfrTable`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrTable` est un élément puissant et polyvalent pour afficher des données sous forme de tableaux dans vos applications Vue. Utilisant une combinaison de slots, de props, et d'événements personnalisés, ce composant offre une flexibilité remarquable. Plongeons dans les détails !
 
@@ -25,18 +25,18 @@ Pour des tableaux complexes, nous vous recommandons d’utiliser [DsfrDataTable]
 | `currentPage`     | `number`                                       | `1`       |             | La page actuelle dans la pagination du tableau.                                                     |
 | `resultsDisplayed`| `number`                                       | `10`      |             | Le nombre de résultats affichés par page dans la pagination.                                        |
 
-## 📡 Événements
+## 📡Événements
 
 | Nom                  | Description                                     |
 |----------------------|-------------------------------------------------|
 | `update:currentPage` | Émis lors du changement de la page actuelle.    |
 
-## 🧩 Slots
+## 🧩 Slots
 
 - **`header`**: Ce slot permet de personnaliser les en-têtes du tableau. Par défaut, il utilise [`DsfrTableHeaders`](./DsfrTableHeader.md) avec les props `headers`.
 - **Slot par défaut**: Utilisé pour le corps du tableau. Par défaut, il affiche les rangées de données via `DsfrTableRow`.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ### Exemple Basique
 

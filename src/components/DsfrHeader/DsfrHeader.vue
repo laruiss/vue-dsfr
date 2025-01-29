@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { computed, onMounted, onUnmounted, provide, ref, toRef, useSlots } from 'vue'
+import { computed, onMounted, onUnmounted, provide, ref, toRef } from 'vue'
 
 import DsfrLanguageSelector, { type DsfrLanguageSelectorElement } from '../DsfrLanguageSelector/DsfrLanguageSelector.vue'
 import DsfrLogo from '../DsfrLogo/DsfrLogo.vue'
@@ -37,6 +37,14 @@ const emit = defineEmits<{
   (e: 'update:modelValue', payload: string): void
   (e: 'search', payload: string): void
   (e: 'languageSelect', payload: DsfrLanguageSelectorElement): void
+}>()
+
+const slots = defineSlots<{
+  default: () => any
+  operator: () => any
+  mainnav: () => any
+  'before-quick-links': () => any
+  'after-quick-links': () => any
 }>()
 
 const languageSelector = toRef(props, 'languageSelector')
@@ -82,8 +90,7 @@ const onQuickLinkClick = hideModal
 
 const title = computed(() => [props.homeLabel, props.serviceTitle].filter(x => x).join(' - '))
 
-const slots = useSlots()
-const isWithSlotOperator = computed(() => Boolean(slots.operator?.().length) || !!props.operatorImgSrc)
+const isWithSlotOperator = computed(() => Boolean(slots.operator) || !!props.operatorImgSrc)
 const isWithSlotNav = computed(() => Boolean(slots.mainnav))
 provide(registerNavigationLinkKey, () => {
   return hideModal

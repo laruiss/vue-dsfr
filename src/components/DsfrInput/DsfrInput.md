@@ -1,10 +1,10 @@
 # Champ de saisie - `DsfrInput`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrInput`, outil essentiel dans l'arsenal de tout développeur Vue ! Que ce soit pour saisir votre nom de fromage préféré ou la date de votre dernière visite à la Tour Eiffel, `DsfrInput` est là pour rendre la saisie de données aussi douce qu'un croissant frais le matin 🥐 (oui, on aime bien les croissants par ici).
 
-## 🛠️ Props
+## 🛠️Props
 
 | Nom             | Type          | Défaut                  | Obligatoire   | Description                                                                                                 |
 |-----------------|---------------|-------------------------|---------------|-------------------------------------------------------------------------------------------------------------|
@@ -52,7 +52,7 @@ Exemple :
 
 :::
 
-## 📡 Événements
+## 📡Événements
 
 | Nom                 | Description                                                                  |
 |---------------------|------------------------------------------------------------------------------|
@@ -60,7 +60,7 @@ Exemple :
 
 ---
 
-## 🧩 Slots
+## 🧩 Slots
 
 | Nom              | Description                                                                                       |
 |------------------|---------------------------------------------------------------------------------------------------|
@@ -69,7 +69,7 @@ Exemple :
 
 ---
 
-## 📝 Exemples
+## 📝 Exemples
 
 Exemple simple d'utilisation de `DsfrInput` :
 

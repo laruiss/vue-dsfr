@@ -1,6 +1,6 @@
 # Réseaux Sociaux - `DsfrSocialNetworks`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrSocialNetworks` est conçu pour afficher une liste de boutons vers des réseaux sociaux, avec un style conforme au [Design System de l'État Français (DSFR)](https://www.systeme-de-design.gouv.fr/). Il permet d'encourager les utilisateurs à suivre votre organisation sur les plateformes sociales.
 
@@ -8,7 +8,7 @@ Le composant `DsfrSocialNetworks` est conçu pour afficher une liste de boutons 
 
 <VIcon name="vi-file-type-storybook" /> La story sur Réseaux Sociaux sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrsocialnetworks--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 Le composant affiche :
 
@@ -21,7 +21,7 @@ Chaque bouton :
 - affiche le nom du réseau ;
 - redirige vers l'URL spécifiée en ouvrant un nouvel onglet.
 
-## 🛠️ Props
+## 🛠️Props
 
 | Nom         | Type                                   | Défaut     | Description                                                                 |
 |-------------|----------------------------------------|------------|-----------------------------------------------------------------------------|
@@ -38,15 +38,15 @@ Chaque réseau est un objet de type :
 | `name` | `string`              | Nom affiché pour le réseau social.                                          |
 | `href` | `string`              | URL vers le profil ou la page sociale.                                      |
 
-## 📡 Événements
+## 📡Événements
 
 Aucun événement spécifique n'est émis par ce composant.
 
-## 🧩 Slots
+## 🧩 Slots
 
 Aucun slot disponible pour ce composant.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ### Exemple de base
 

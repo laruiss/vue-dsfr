@@ -1,6 +1,6 @@
 # DsfrButton
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le bouton est un élément d’interaction avec l’interface permettant à l’utilisateur d’effectuer une action.
 
@@ -26,19 +26,19 @@ Les boutons sont composés de :
 | `label`     | `string`                   | `undefined`|             | Étiquette textuelle du bouton. Si le label est laissé à undefined, le slot par défaut doit contenir du texte !                        |
 | `onClick`   | `Function`                 | `() => {}` |             | Fonction appelée lors du clic sur le bouton.          |
 
-## 📡 Évenements
+## 📡Évenements
 
 - `click` : Émis lorsque le bouton est cliqué.
 
-## 🧩 Slots
+## 🧩 Slots
 
 - `default` : Emplacement pour le contenu personnalisé du bouton. Inséré dans `<button class="fr-btn"><span">`.
 
-## ✨ Les groupes de boutons
+## ✨ Les groupes de boutons
 
 Cf. [documentation dédiée](/composants/DsfrButtonGroup)
 
-## 📝 Exemples
+## 📝 Exemples
 
 Un bouton large avec une icône 'maison' à gauche et le texte 'Accueil' :
 

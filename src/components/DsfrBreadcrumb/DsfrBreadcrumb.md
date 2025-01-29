@@ -1,6 +1,6 @@
 # Fil d’ariane - `DsfrBreadcrumb`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Bienvenue à la documentation du composant DsfrBreadcrumb ! Ce composant est un véritable GPS pour vos interfaces utilisateur, guidant les utilisateurs à travers les différents niveaux de votre application avec aisance et élégance. Utilisons TypeScript et Vue pour explorer ses fonctionnalités.
 
@@ -27,15 +27,15 @@ Dans l’ordre, il se compose des éléments suivants :
 | navigationLabel     | String | `'vous êtes ici :'`             | Label affiché sur la balise `nav` du fil d’Ariane.                                                                                                       |
 | showBreadcrumbLabel | String | `'Voir le fil d’Ariane'`        | Label du bouton d'affichage du fil d’Ariane.                                                                                                             |
 
-## 📡 Évenements
+## 📡Évenements
 
 Ce composant n'émet pas directement d'événements, mais vous pouvez écouter les événements de clic sur les liens individuels si nécessaire.
 
-## 🧩 Slots
+## 🧩 Slots
 
 Pas de slots définis pour `DsfrBreadcrumb`. Le contenu est entièrement géré via les props.
 
-## 📝 Exemples
+## 📝 Exemples
 
 Voici un exemple d'utilisation de DsfrBreadcrumb  :
 

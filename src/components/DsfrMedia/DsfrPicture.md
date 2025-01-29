@@ -6,13 +6,13 @@ Les contenus médias désignent vos contenus photos et vidéos. Lorsqu’ils son
 
 <VIcon name="vi-file-type-storybook" /> La story sur le contenu média image (picture) sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrpicture--docs)
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrPicture` permet d'afficher une image de manière responsive, avec une légende optionnelle. Il est conçu pour être flexible, offrant des options pour personnaliser la taille, le ratio, et le contenu de l'image. Ce composant est idéal pour intégrer des images dans une interface utilisateur tout en garantissant leur adaptabilité et accessibilité.
 
 Le `DsfrPicture` utilise une structure HTML sémantique avec `<figure>` et `<figcaption>` pour améliorer l'accessibilité. Il applique des classes CSS conditionnelles pour ajuster la taille et le ratio de l'image en fonction des props fournies. Le slot par défaut permet une personnalisation avancée du contenu de l'image.
 
-## 📐 Structure
+## 📐 Structure
 
 - `<DsfrPicture>` : Le composant principal.
   - Affiche une image avec un ratio et une taille personnalisés.
@@ -30,15 +30,15 @@ Le `DsfrPicture` utilise une structure HTML sémantique avec `<figure>` et `<fig
 | `title`   | `string`                            | Titre de l'image, affiché au survol.                       | `''`              |
 | `ratio`   | `string`                            | Ratio de l'image (par exemple, '16x9').                    | `'16x9'`          |
 
-## 📡 Événements
+## 📡Événements
 
 Ce composant ne déclenche pas d'événements spécifiques.
 
-## 🧩 Slots
+## 🧩 Slots
 
 - `default` : Slot pour insérer un contenu personnalisé (comme une image SVG). Si aucun contenu n'est fourni, l'image spécifiée par `src` est utilisée.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ::: code-group
 

@@ -1,6 +1,6 @@
 # Composant `DsfrNewsLetter`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrNewsLetter` est conçu pour afficher un formulaire d'inscription à une lettre d'information (newsletter) respectant les standards du [Design System de l'État Français (DSFR)](https://www.systeme-de-design.gouv.fr/). Flexible et accessible, il s'adapte à différents cas d'usage grâce à ses props personnalisables.
 
@@ -8,7 +8,7 @@ Le composant `DsfrNewsLetter` est conçu pour afficher un formulaire d'inscripti
 
 <VIcon name="vi-file-type-storybook" /> La story sur la lettre d’information sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrnewsletter--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 Le composant offre deux modes :
 
@@ -34,45 +34,17 @@ Le composant offre deux modes :
 | `buttonAction` | `($event: MouseEvent) => void`    | `() => undefined`                                                                          | Action personnalisée exécutée au clic du bouton en mode callout.            |
 | `onlyCallout`  | `boolean`                         | `false`                                                                                    | Active le mode "callout" avec un simple bouton au lieu du formulaire complet. |
 
-## 📡 Événements
+## 📡Événements
 
 | Nom               | Payload    | Description                                                                     |
 |--------------------|------------|---------------------------------------------------------------------------------|
 | `update:email`    | `string`   | Émis lorsque l'utilisateur modifie le champ email.                              |
 
-## 🧩 Slots
+## 🧩 Slots
 
 Aucun slot disponible pour ce composant.
 
-## 📝 Exemples
-
-### Exemple de base (formulaire)
-
-```vue
-<DsfrNewsLetter
-  :title="'Recevez nos actualités !'"
-  :description="'Inscrivez-vous pour recevoir notre newsletter.'"
-  :buttonText="'Envoyer'"
-  :placeholder="'nom@exemple.com'"
-  @update:email="(email) => console.log('Email mis à jour :', email)"
-/>
-```
-
-## 📝 Exemples
-
-### Exemple de base
-
-```vue
-<DsfrFollow>
-  <DsfrNewsLetter
-    :onlyCallout="true"
-    :buttonText="'S’inscrire maintenant'"
-    :buttonAction="() => console.log('Bouton cliqué !')"
-  />
-</DsfrFollow>
-```
-
-### Exemple complet
+## 📝 Exemple
 
 ::: code-group
 
@@ -84,7 +56,7 @@ Aucun slot disponible pour ce composant.
 
 :::
 
-## ⚙️ Code source du composant
+## ⚙️Code source du composant
 
 ::: code-group
 

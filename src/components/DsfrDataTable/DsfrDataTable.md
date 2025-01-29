@@ -1,6 +1,6 @@
 # Tableau - `DsfrDataTable`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrDataTable` est un élément puissant et polyvalent pour afficher des données sous forme de tableaux dans vos applications Vue. Utilisant une combinaison de slots, de props, et d'événements personnalisés, ce composant offre une flexibilité remarquable. Plongeons dans les détails !
 
@@ -16,11 +16,11 @@ Si vous avez des propositions, veuillez lancer une [**discussion**](https://gith
 
 <VIcon name="vi-file-type-storybook" /> La story sur le tableau de données sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrdatatable--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 Le composant `DsfrDataTable` s'utilise pour afficher des données structurées sous forme de tableau. Il prend en charge le tri des colonnes, la pagination des lignes, et l'ajout de boutons ou d'icônes pour effectuer des actions spécifiques sur les données.
 
-## Props 🛠️
+## 🛠️Props
 
 | Nom               | Type                                           | Défaut    | Obligatoire | Description                                                                                         |
 |-------------------|------------------------------------------------|-----------|-------------|-----------------------------------------------------------------------------------------------------|
@@ -44,7 +44,7 @@ Le composant `DsfrDataTable` s'utilise pour afficher des données structurées s
 | `bottomActionBarClass`      | `string \| Record<string, boolean> \| string[]`      | `undefined`              | Classe CSS pour la barre d'actions en bas du tableau.                                                                                        |
 | `paginationWrapperClass`    | `string \| Record<string, boolean> \| string[]`      | `undefined`              | Classe CSS pour l'élément englobant la pagination.                                                                                           |
 
-## Events 📡
+## 📡 Events
 
 | Nom                  | Payload | Description                                     |
 |----------------------|---------|----------------------------------------|
@@ -62,14 +62,14 @@ Vous pouvez donc utiliser `v-model` pour :
 - sortedBy
 - sortedDesc
 
-## 🧩 Slots
+## 🧩 Slots
 
 - **Slot par défaut**: Utilisé pour le corps du tableau. Par défaut, il affiche les rangées de données via `DsfrDataTableRow`.
 - **`header`** : Permet de personnaliser le rendu des en-têtes de colonne.
 - **`cell`** : Permet de personnaliser le contenu des cellules.
 - **`pagination`** : Permet de personnaliser la pagination affichée sous le tableau.
 
-## Exemples 📝
+## 📝 Exemples
 
 ### Exemple Basique
 
@@ -113,7 +113,7 @@ Vous pouvez donc utiliser `v-model` pour :
 
 :::
 
-## ⚙️ Code source du composant
+## ⚙️Code source du composant
 
 ::: code-group
 

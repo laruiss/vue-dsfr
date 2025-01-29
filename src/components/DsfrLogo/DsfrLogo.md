@@ -1,12 +1,12 @@
 # Logo - `DsfrLogo`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrLogo` est utilisé pour afficher le logo institutionnel du Gouvernement français, en respectant les spécifications du [Design System de l'État Français (DSFR)](https://www.systeme-de-design.gouv.fr/). Ce composant permet d'afficher un texte simple ou multi-lignes représentant le logo, avec des options pour ajuster la taille.
 
 <VIcon name="vi-file-type-storybook" /> La story sur Logo sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrlogo--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 Le composant affiche un élément `<p>` avec la classe CSS `fr-logo`, et des classes supplémentaires pour les variations de taille. Le texte du logo peut être personnalisé pour répondre à vos besoins.
 
@@ -18,15 +18,15 @@ Le composant affiche un élément `<p>` avec la classe CSS `fr-logo`, et des cla
 | `large`     | `boolean`           | `false`         | Affiche le logo en grande taille (`fr-logo--lg`).                           |
 | `logoText`  | `string | string[]` | `'Gouvernement'` | Texte ou tableau de textes à afficher comme logo. Les éléments du tableau sont séparés par un saut de ligne (`<br>`). |
 
-## 📡 Événements
+## 📡Événements
 
 Aucun événement spécifique n'est émis par ce composant.
 
-## 🧩 Slots
+## 🧩 Slots
 
 Aucun slot disponible pour ce composant.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ### Exemple de base
 

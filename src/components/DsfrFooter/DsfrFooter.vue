@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, useSlots } from 'vue'
+import { computed, useSlots, type VNode } from 'vue'
 import type { RouteLocationRaw, RouterLink } from 'vue-router'
 
 import DsfrFooterLink from '../DsfrFooter/DsfrFooterLink.vue'
@@ -83,6 +83,11 @@ const props = withDefaults(defineProps<DsfrFooterProps>(), {
   licenceName: 'licence etalab-2.0',
 })
 
+defineSlots<{
+  'footer-link-lists': () => VNode
+  description: () => VNode
+}>()
+
 const allLinks = computed(() => {
   return [
     ...props.beforeMandatoryLinks,
@@ -93,7 +98,7 @@ const allLinks = computed(() => {
 
 const slots = useSlots()
 const isWithSlotLinkLists = computed(() => {
-  return slots['footer-link-lists']?.().length
+  return slots['footer-link-lists']?.()
 })
 const isExternalLink = computed(() => {
   const to = props.licenceTo || (props.licenceLinkProps as { to: RouteLocationRaw }).to

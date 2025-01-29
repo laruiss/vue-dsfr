@@ -1,6 +1,6 @@
 # Groupe de champs de saisie - `DsfrInputGroup`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Bienvenue dans la documentation du composant `DsfrInputGroup`, conçu pour envelopper vos champs de saisie avec une élégance à la française. Que vous composiez un message d'amour ou remplissiez un formulaire administratif, ce composant est là pour apporter de l'ordre et de la clarté à vos interfaces utilisateur.
 
@@ -30,20 +30,20 @@ Cf. la [note important sur DsfrInput](./DsfrInput.md#attributs-implicitement-de
 
 :::
 
-## 📡 Événements
+## 📡Événements
 
 | Nom                 | Description                                                                  |
 |---------------------|------------------------------------------------------------------------------|
 | `update:modelValue` | Événement émis lors de la mise à jour de la valeur de l'input.               |
 
-## 🧩 Slots
+## 🧩 Slots
 
 | Nom             | Description                                                                                       |
 |-----------------|---------------------------------------------------------------------------------------------------|
 | `before-input`  | Slot pour insérer du contenu avant le champ de saisie principal.                                  |
 | `default`       | Slot par défaut pour le contenu principal du groupe de champ. Utilisé pour insérer des éléments personnalisés. |
 
-## 📝 Exemples
+## 📝 Exemples
 
 Voici comment vous pourriez utiliser `DsfrInputGroup` :
 

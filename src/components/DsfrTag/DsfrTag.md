@@ -1,6 +1,6 @@
 # Tag - `DsfrTag`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le tag catégorise/classe/organise les contenus à l'aide de mots-clés. Il aide les utilisateurs à rechercher et à trouver facilement une information.
 
@@ -17,7 +17,7 @@ Le tag peut être utilisé dans deux contextes :
 
 <VIcon name="vi-file-type-storybook" /> La story sur le tag sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrtags--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 Il se compose des éléments suivants :
 
@@ -36,17 +36,17 @@ Il se compose des éléments suivants :
 | small     | `Boolean` | `false`     |             | Réduit la taille de l'étiquette.                         |
 | iconOnly  | `Boolean` | `false`     |             | Affiche uniquement l'icône, sans texte.                  |
 
-## 📡 Évenements
+## 📡Évenements
 
 Pas d'événements personnalisés pour ce composant. Il se repose sur les événements natifs de ses balises sous-jacentes.
 
-## 🧩 Slots
+## 🧩 Slots
 
 | Nom       | Description                                              |
 |-----------|----------------------------------------------------------|
 | default   | Slot par défaut pour ajouter du contenu supplémentaire à côté du label ou de l'icône. |
 
-## 📝 Exemples
+## 📝 Exemples
 
 ::: code-group
 

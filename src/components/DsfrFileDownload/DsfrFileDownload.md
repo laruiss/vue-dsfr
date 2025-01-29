@@ -1,6 +1,6 @@
 # Téléchargement de fichier - `DsfrFileDownload`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le téléchargement de fichier permet à l'utilisateur de choisir un fichier à téléverser depuis son poste.
 
@@ -8,7 +8,7 @@ Le téléchargement de fichier permet à l'utilisateur de choisir un fichier à 
 
 <VIcon name="vi-file-type-storybook" /> La story du téléchargement de fichier sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrfiledownload--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 Le téléchargement de fichier est constitué des éléments suivants :
 
@@ -28,7 +28,7 @@ Le téléchargement de fichier est constitué des éléments suivants :
 | `download`              | *`string`*    | `''`                         |             |
 | `title`                 | *`string`*    | `' Télécharger le document'` |             |
 
-## 📝 Exemple complet
+## 📝 Exemple complet
 
 ::: code-group
 

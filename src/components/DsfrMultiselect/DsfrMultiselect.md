@@ -1,6 +1,6 @@
 # Liste déroulante enrichie - `DsfrMultiselect`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le `DsfrMultiselect` est un composant Vue permettant à un utilisateur de choisir un ou plusieurs élément dans une liste donnée.
 
@@ -8,7 +8,7 @@ La liste déroulante fournit une liste d’option parmi lesquelles l’utilisate
 
 🏅 La documentation sur **liste déroulante riche** sur le [DSFR](https://www.systeme-de-design.gouv.fr/composants-et-modeles/composants-beta/liste-deroulante-riche)
 
-## 📐 Structure
+## 📐 Structure
 
 1. Libellé - Obligatoire (prop `label`)
 2. Une description - Optionnelle (prop `hint` ou slot `hint`)
@@ -83,7 +83,7 @@ Si DsfrMultiselect est placé dans une iframe, il n'aura pas accès aux clics ex
 
 :::
 
-## 📡 Évenements
+## 📡Évenements
 
 `DsfrMultiselect` émet l'événement suivant :
 
@@ -91,7 +91,7 @@ Si DsfrMultiselect est placé dans une iframe, il n'aura pas accès aux clics ex
 |--------------------|--------------------------|----------------------------------------------|
 | `update:modelValue`| *`Array<(T \| string \| number)>`* | Est émis lorsque la valeur du select change. |
 
-## 🧩 Slots
+## 🧩 Slots
 
 `DsfrMultiselect` permet les slots suivants :
 
@@ -105,7 +105,7 @@ Si DsfrMultiselect est placé dans une iframe, il n'aura pas accès aux clics ex
 | `checkbox-label`   | *`(props: { option: T \| string \| number })`* | Permet de changer le label des checkboxs.                               |
 | `no-results`       |                                                | Permet de changer l'affichage lorsque la recherche donne aucun élément. |
 
-## 📝 Exemples
+## 📝 Exemples
 
 ### Exemple Basique
 

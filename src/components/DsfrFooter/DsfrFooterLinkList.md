@@ -1,10 +1,10 @@
 # Liste de lien du pied de page - `DsfrFooterLinkList`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrFooterLinkList` est un élément de liste personnalisable pour les pieds de page. Il permet d'afficher une liste de liens catégorisés, adaptés à des besoins variés, notamment pour les sites web ayant besoin d'un pied de page structuré et accessible.
 
-## 📐 Structure
+## 📐 Structure
 
 Le composant se compose de deux parties principales :
 
@@ -18,15 +18,15 @@ Le composant se compose de deux parties principales :
 | `categoryName` | `string` | `'Nom de la catégorie'` | Le nom de la catégorie de liens affichée. |
 | `links` | `Array<DsfrFooterLinkProps>` | `[]` | Un tableau d'objets représentant les liens à afficher. Chaque objet peut avoir les propriétés de `DsfrFooterLinkProps`. |
 
-## 📡 Événements
+## 📡Événements
 
 Pas d'événements émis directement par ce composant.
 
-## 🧩 Slots
+## 🧩 Slots
 
 Aucun slot n'est disponible pour ce composant. Tout est basé sur les props fournies pour générer la vue.
 
-## 📝 Exemples
+## 📝 Exemples
 
 Ce composant est utilisé en interne dans DsfrFooter, il n’y a pas de raison de l’utiliser en dehors.
 

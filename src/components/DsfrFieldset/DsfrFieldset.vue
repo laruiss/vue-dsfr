@@ -10,12 +10,18 @@ withDefaults(defineProps<DsfrFieldsetProps>(), {
   hint: '',
   hintClass: '',
 })
+
+defineSlots<{
+  default: () => any
+  legend: () => any
+  hint: () => any
+}>()
 </script>
 
 <template>
   <fieldset class="fr-fieldset">
     <legend
-      v-if="legend || $slots.legend?.().length"
+      v-if="legend || $slots.legend?.()"
       :id="legendId"
       class="fr-fieldset__legend"
       :class="legendClass"
@@ -25,7 +31,7 @@ withDefaults(defineProps<DsfrFieldsetProps>(), {
       <slot name="legend" />
     </legend>
     <div
-      v-if="hint || $slots.hint?.().length"
+      v-if="hint || $slots.hint?.()"
       class="fr-fieldset__element"
     >
       <span

@@ -1,10 +1,10 @@
 # Liste de liens d’en-tête - `DsfrHeaderMenuLinks`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrHeaderMenuLinkList` fournit une structure de navigation sous forme de liste, en utilisant le composant `DsfrHeaderMenuLink`.
 
-## 📐 Structure
+## 📐 Structure
 
 - `<DsfrHeaderMenuLinkList>` : Le composant principal.
   - Englobe une liste `<ul>` de `<DsfrHeaderMenuLink>`.
@@ -17,15 +17,15 @@ Le composant `DsfrHeaderMenuLinkList` fournit une structure de navigation sous f
 | `links`        | `DsfrHeaderMenuLinkProps[]`      | Un tableau d'objets de props pour chaque `DsfrHeaderMenuLink`.            | `[]`                |
 | `navAriaLabel` | `string`                         | Label ARIA pour la navigation, utile pour l'accessibilité.                | `'Menu secondaire'` |
 
-## 📡 Événements
+## 📡Événements
 
 - `linkClick` : Événement déclenché lorsque l'un des liens est cliqué. Fournit l'événement de clic (`MouseEvent`) comme paramètre.
 
-## 🧩 Slots
+## 🧩 Slots
 
 Pas de slots spécifiques. Le contenu est généré dynamiquement en fonction de la prop `links`.
 
-## 📝 Exemples
+## 📝 Exemples
 
 Ce composant est utilisé en interne dans DsfrHeader. Il n’y a pas de raison de l’utiliser en dehors.
 

@@ -1,6 +1,6 @@
 # Groupe de boutons - `DsfrButtonGroup`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Les boutons dans le contexte d'un groupe suivent les même règles que le composant bouton :
 
@@ -26,7 +26,7 @@ Aucune prop n’est obligatoire
 | iconRight        | `boolean`                       | false             | Si `true`, place les icônes à droite du texte dans tous les boutons. |
 | size             | `'sm' \| 'md' \| 'lg'`   | 'md'                 | Détermine la taille des boutons. Peut être `'sm'` (petit), `'md`' (moyen, défaut), `'lg'` (grand). |
 
-## 🧩 Slots
+## 🧩 Slots
 
 Le slot par défaut peut être utilisé pour mettre des boutons personnalisés.
 
@@ -36,7 +36,7 @@ Si vous utilisez le slot, il faut bien envelopper chaque bouton dans une balise 
 
 :::
 
-## 📝 Exemples
+## 📝 Exemples
 
 ::: code-group
 

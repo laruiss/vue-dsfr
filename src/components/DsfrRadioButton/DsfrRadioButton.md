@@ -1,6 +1,6 @@
 # Bouton radio (et bouton radio riche) - `DsfrRadioButton`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 ::: warning Important
 
@@ -61,7 +61,7 @@ Le composant `DsfrRadioButton` est composé des éléments suivants :
 - `label` : Permet de personnaliser le contenu de la légende.
 - `required-tip` : Permet d'ajouter un astérisque indiquant que le champ est obligatoire (fonctionne uniquement si l'attribut `required` est défini sur le composant).
 
-## 🪆 Relation avec `DsfrRadioButtonSet`
+## 🪆 Relation avec `DsfrRadioButtonSet`
 
 Le composant [`DsfrRadioButtonSet`](./DsfrRadioButtonSet.md) utilise le composant `DsfrRadioButton` pour rendre visuellement chaque option du groupe. Chaque bouton radio individuel hérite des props du composant `DsfrRadioButtonSet` excepté `modelValue`.
 

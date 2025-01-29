@@ -1,6 +1,6 @@
 # Documentation du Composant `DsfrSegmented`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 👋 Bonjour et bienvenue dans la documentation de `DsfrSegmented`, un composant radio boutonné avec une touche de « je ne sais quoi » à la française! C'est chic, c'est pratique, et en plus, ça supporte des icônes. Alors, allons-y !
 
@@ -44,7 +44,7 @@ Le composant « contrôle segmenté » incite l'utilisateur à choisir entre
 
 Pas de slots ici ! Ce composant est aussi direct qu'un express Paris-Marseille.
 
-## 📝 Exemple
+## 📝 Exemple
 
 ```vue
 <DsfrSegmented

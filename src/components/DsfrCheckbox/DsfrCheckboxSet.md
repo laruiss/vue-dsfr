@@ -1,4 +1,4 @@
-## 🌟 Introduction
+## 🌟 Introduction
 
 Ce composant permet de gérer un ensemble de cases à cocher DSFR. Il est composé d'un libellé (`legend`), d'options individuelles représentées par le composant `DsfrCheckbox`, et d'un message d'information, d'erreur ou de validation global.
 
@@ -49,7 +49,7 @@ Ce n’était ni une API idéale, ni le comportement attendu en Vue natif ou en 
 - `legend` : Permet de personnaliser le contenu de la légende.
 - `required-tip` : Permet d'ajouter plus qu’un astérisque pour indiquer que le champ est obligatoire ou d’autres détails sur cette case à cocher.
 
-## 🪆 Relation avec `DsfrCheckbox`
+## 🪆 Relation avec `DsfrCheckbox`
 
 `DsfrChecboxSet` utilise en interne `DsfrCheckbox`, et permet de récupérer dans `modelValue` sous forme de tableau les valeurs de la prop `value` de chaque case à cocher qui est cochée.
 

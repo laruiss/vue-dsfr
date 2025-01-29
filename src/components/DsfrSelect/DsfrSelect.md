@@ -1,6 +1,6 @@
 # Liste déroulante - `DsfrSelect`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le `DsfrSelect` est un composant Vue permettant à un utilisateur de choisir un élément dans une liste donnée.
 
@@ -27,7 +27,7 @@ La liste déroulante fournit une liste d’option parmi lesquelles l’utilisate
 | `defaultUnselectedText`  | `string`                                                                                    | `'Sélectionner une option'` |             | Si `true`, l'infobulle s'affiche au survol.                      |
 | `selectId`               | `string`                                                                                    | `useRandomId('select')`     |             | Identifiant unique pour le select. Utilisé pour l'accessibilité. |
 
-## 📡 Évenements
+## 📡Évenements
 
 `DsfrSelect` émet l'événement suivant :
 
@@ -35,11 +35,11 @@ La liste déroulante fournit une liste d’option parmi lesquelles l’utilisate
 |-----------------------|----------------------| ---------------------------------------------|
 | `update:modelValue`   | *`string \| number`* | Est émis lorsque la valeur du select change. |
 
-## 🧩 Slots
+## 🧩 Slots
 
 - Aucun slot n'est disponible dans ce ce composant.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ::: code-group
 

@@ -1,10 +1,10 @@
 # Lien d’en-tête - `DsfrHeaderMenuLink`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrHeaderMenuLink` offre une flexibilité pour des liens internes, externes, des boutons, et même des liens mailto, tout en intégrant la possibilité d'ajouter des icônes du DSFR ou grâce à `Iconify` (cf. la documentation sur les [icônes VueDsfr](/guide/icones)).
 
-## 📐 Structure
+## 📐 Structure
 
 - `<DsfrHeaderMenuLink>` : Le composant principal.
   - Utilise `<component :is="...">` pour rendre dynamiquement le bon type d'élément (lien, bouton, ou RouterLink).
@@ -24,15 +24,15 @@ Le composant `DsfrHeaderMenuLink` offre une flexibilité pour des liens internes
 | `to`        | `import('vue-router').RouteLocationRaw`                 | Destination pour le routeur Vue, si utilisé comme lien de navigation interne.                      | `undefined`       |
 | `href`      | `string`                           | URL pour les liens externes.                                                                       | `undefined`       |
 
-## 📡 Événements
+## 📡Événements
 
 - `click` : Événement déclenché lorsque l'utilisateur clique sur le composant.
 
-## 🧩 Slots
+## 🧩 Slots
 
 Pas de slots spécifiques pour ce composant. Il utilise le `label` pour afficher le texte du lien ou du bouton.
 
-## 📝 Exemples
+## 📝 Exemples
 
 Ce composant est utilisé en interne dans DsfrHeader. Il n’y a pas de raison de l’utiliser en dehors.
 

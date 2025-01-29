@@ -1,6 +1,6 @@
 # Groupe d’accordéons - `DsfrAccordionsGroup`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrAccordionsGroup` permet de regrouper plusieurs accordéons en une seule unité cohérente. Il gère la logique de sélection active entre les accordéons enfants, permettant ainsi d'ouvrir un accordéon tout en fermant les autres. Ce composant est essentiel pour organiser des ensembles d'accordéons liés de manière interactive.
 
@@ -16,7 +16,7 @@ Le composant `DsfrAccordionsGroup` agit comme un conteneur pour les composants d
 |-------------|------|------------|-------------|
 | `modelValue` | `number` | `-1` | Index de l'accordéon actuellement actif. Cette prop est utilisée pour le contrôle externe de l'accordéon ouvert (un seul peut être ouvert à la fois). |
 
-## 📡 Événements
+## 📡Événements
 
 | Nom de l'Événement | Payload | Description |
 |--------------------|---------|-------------|
@@ -26,11 +26,11 @@ Le composant `DsfrAccordionsGroup` agit comme un conteneur pour les composants d
 Il est donc possible (et recommandé) d’utiliser la directive `v-model` sur ce composant.
 :::
 
-## 🧩 Slots
+## 🧩 Slots
 
 - **`default`** : Slot par défaut pour le contenu du groupe d'accordéons. Ce slot contiendra les composants `DsfrAccordion` enfants.
 
-## 📝 Exemple
+## 📝 Exemple
 
 ::: code-group
 

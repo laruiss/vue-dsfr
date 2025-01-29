@@ -14,11 +14,11 @@ Rencontrez `DsfrTableRow`, le composant incontournable pour structurer les ligne
 - **`rowData`**: Un tableau contenant les données de chaque cellule. Chaque élément peut être une chaîne ou un objet avec des propriétés supplémentaires pour la cellule.
 - **`rowAttrs`**: Un objet représentant des attributs HTML supplémentaires, comme des classes ou des styles, à appliquer sur la rangée.
 
-## 🧩 Slots
+## 🧩 Slots
 
 - **Slot par défaut**: Utilisé pour insérer du contenu personnalisé dans la rangée du tableau, avant les cellules générées automatiquement.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ### Exemple basique
 

@@ -1,6 +1,6 @@
 # Gestionnaire de consentement - `DsfrConsent`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le gestionnaire de consentement permet à l'utilisateur de définir ses préférences sur l'utilisation de ses données personnelles, notamment le dépôt de cookies non fonctionnels dans son navigateur.
 
@@ -8,7 +8,7 @@ Le gestionnaire de consentement permet à l'utilisateur de définir ses préfér
 
 <VIcon name="vi-file-type-storybook" /> La story du gestionnaire de consentement sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrconsent--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 Le gestionnaire de consentement est constitué des éléments suivants :
 
@@ -51,7 +51,7 @@ Le gestionnaire de consentement est constitué des éléments suivants :
 
 Cf. la [documentation Vue](https://vuejs.org/guide/essentials/event-handling.html#accessing-event-argument-in-inline-handlers) pour plus de détails.
 
-## 📝 Exemple complet
+## 📝 Exemple complet
 
 ::: code-group
 

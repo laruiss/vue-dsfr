@@ -1,6 +1,6 @@
 # Pagination - `DsfrPagination`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrPagination` est un système de pagination conforme aux bonnes pratiques ergonomiques et accessible (ARIA). Il permet de naviguer facilement à travers plusieurs pages avec des fonctionnalités avancées comme la limitation de pages affichées et la gestion des événements.
 
@@ -8,7 +8,7 @@ Le composant `DsfrPagination` est un système de pagination conforme aux bonnes 
 
 <VIcon name="vi-file-type-storybook" /> La story sur le tag sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrpagination--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 Ce composant affiche des liens pour la première page, la précédente, les pages centrales, la suivante, et la dernière, avec des contrôles adaptatifs selon l'état de la pagination.
 
@@ -24,7 +24,7 @@ Ce composant affiche des liens pour la première page, la précédente, les page
 | `nextPageTitle`  | `string`             | `'Page suivante'`   | Texte d'info-bulle pour le lien de la page suivante.                                            |
 | `prevPageTitle`  | `string`             | `'Page précédente'` | Texte d'info-bulle pour le lien de la page précédente.                                          |
 
-## 📡 Événements
+## 📡Événements
 
 | Nom                      | Payload       | Description                                             |
 |--------------------------|---------------|---------------------------------------------------------|
@@ -32,11 +32,11 @@ Ce composant affiche des liens pour la première page, la précédente, les page
 
 Il faut donc utiliser `v-model:current-page` sur le composant (cf. l’exemple ci-dessous).
 
-## 🧩 Slots
+## 🧩 Slots
 
 Ce composant n'utilise pas de slots, tout est configuré via les props et les données des pages. 🚀
 
-## 📝 Exemple d'utilisation
+## 📝 Exemple d'utilisation
 
 ::: code-group
 

@@ -1,6 +1,6 @@
 # Sélecteur de langue - Translate - `DsfrLanguageSelector`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le sélecteur de langue permet à l’utilisateur de choisir la langue dans laquelle est affichée le contenu du site, si celui-ci est disponible en plusieurs langues.
 
@@ -16,7 +16,7 @@ Ce composant est utilisé en interne dans [DsfrHeader](/composants/DsfrHeader) (
 
 <VIcon name="vi-file-type-storybook" /> La story sur le **sélecteur de langue** sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrlanguageselector--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 - `<DsfrLanguageSelector>` : Le composant principal.
   - Contient un bouton qui ouvre ou ferme un menu déroulant de langues.
@@ -30,15 +30,15 @@ Ce composant est utilisé en interne dans [DsfrHeader](/composants/DsfrHeader) (
 | `languages`        | [`DsfrLanguageSelectorElement[]`](/types#dsfrlanguageselector) | Liste des langues disponibles. Chaque langue est représentée par un objet contenant un `codeIso` et un `label`. | `[]`                      |
 | `currentLanguage`  | `string`                      | Code ISO de la langue actuellement sélectionnée.              | `'fr'`                    |
 
-## 📡 Événements
+## 📡Événements
 
 - `select` : Événement émis lorsqu'une langue est sélectionnée. Passe l'objet `DsfrLanguageSelectorElement` de la langue sélectionnée en tant que payload.
 
-## 🧩 Slots
+## 🧩 Slots
 
 - `default` : Ce slot permet d'insérer du contenu personnalisé dans le bouton qui affiche la langue sélectionnée.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ::: code-group
 

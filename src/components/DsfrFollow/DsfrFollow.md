@@ -1,6 +1,6 @@
 # Suivre (lettre d’information et réseaux sociaux) - `DsfrFollow`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrFollow` est un conteneur pratique permettant d'afficher une section combinée pour une inscription à une newsletter et une liste de réseaux sociaux. Idéal pour renforcer l'engagement des utilisateurs sur votre site, ce composant combine flexibilité et respect des standards de la [Design System de l'État Français (DSFR)](https://www.systeme-de-design.gouv.fr/).
 
@@ -8,7 +8,7 @@ Le composant `DsfrFollow` est un conteneur pratique permettant d'afficher une se
 
 <VIcon name="vi-file-type-storybook" /> La story sur « Suivre » sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrfollow--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 Le composant affiche une grille responsive contenant :
 
@@ -16,7 +16,7 @@ Le composant affiche une grille responsive contenant :
 - Une **section réseaux sociaux**, utilisant le composant `DsfrSocialNetworks`.
 - Un **slot par défaut**, permettant d'insérer un contenu personnalisé.
 
-## 🛠️ Props
+## 🛠️Props
 
 | Nom              | Type                                                      | Défaut       | Description                                                                 |
 |-------------------|-----------------------------------------------------------|--------------|-----------------------------------------------------------------------------|
@@ -24,7 +24,7 @@ Le composant affiche une grille responsive contenant :
 | `networks`       | `DsfrSocialNetwork[]`                                      | `[]`         | Liste des réseaux sociaux à afficher avec leurs détails (`type`, `name`, `href`). |
 | `onlyCallout`    | `boolean` (hérité de `DsfrNewsLetterProps`)                | `false`      | Indique si seule une version "callout" de la newsletter doit être utilisée. |
 
-### Props de `DsfrNewsLetter`
+### 🛠️Props de `DsfrNewsLetter`
 
 Voici les principales options de configuration pour `newsletterData` :
 
@@ -38,7 +38,7 @@ Voici les principales options de configuration pour `newsletterData` :
 | `buttonText`    | `string`                 | `undefined`  | Texte du bouton d'action.                                                  |
 | `buttonAction`  | `($event: MouseEvent) => void` | `undefined`  | Fonction déclenchée au clic du bouton.                                     |
 
-### Props de `DsfrSocialNetworks`
+### 🛠️Props de `DsfrSocialNetworks`
 
 Les réseaux sociaux (`networks`) sont des objets de type :
 
@@ -48,17 +48,17 @@ Les réseaux sociaux (`networks`) sont des objets de type :
 | `name` | `string`              | Nom à afficher pour le réseau social.                                     |
 | `href` | `string`              | URL vers le profil ou la page sociale.                                    |
 
-## 📡 Événements
+## 📡Événements
 
 Aucun événement spécifique n'est émis par ce composant. Les événements doivent être gérés via les props des sous-composants `DsfrNewsLetter` et `DsfrSocialNetworks`.
 
-## 🧩 Slots
+## 🧩 Slots
 
 | Nom     | Contenu                                                                                      |
 |---------|----------------------------------------------------------------------------------------------|
 | `default` | Permet d'insérer du contenu personnalisé dans le conteneur global du composant.             |
 
-## 📝 Exemples
+## 📝 Exemples
 
 ### Exemple de base
 

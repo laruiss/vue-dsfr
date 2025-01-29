@@ -1,12 +1,12 @@
 # Onglet - `DsfrTabItem`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrTabItem` représente un onglet individuel dans un ensemble d'onglets. Il gère les interactions utilisateur telles que les clics et les commandes clavier pour naviguer entre les onglets. Ce composant offre également une intégration avec des icônes pour une expérience utilisateur enrichie et intuitive.
 
 Ce composant **doit** s’utiliser dans un [`DsfrTabs`](/composants/DsfrTabs).
 
-## 📐 Structure
+## 📐 Structure
 
 - `<DsfrTabItem>` : Un élément de liste représentant un onglet.
   - Contient un bouton pour activer l'onglet.
@@ -20,7 +20,7 @@ Ce composant **doit** s’utiliser dans un [`DsfrTabs`](/composants/DsfrTabs).
 | `tabId`   | `string` | ID unique de l'onglet, utilisé pour l'accessibilité.             | `obligatoire`     |
 | `icon`    | `string` | Nom de l'icône à afficher dans l'onglet (facultatif).            | `undefined`       |
 
-## 📡 Événements
+## 📡Événements
 
 - `click` : Événement émis lorsque l'onglet est cliqué, envoie l’index de l’onglet (`number`, entier commençant à `0`).
 - `next` : Événement émis lorsque l'utilisateur appuie sur la touche "flèche droite" ou "flèche bas".
@@ -28,11 +28,11 @@ Ce composant **doit** s’utiliser dans un [`DsfrTabs`](/composants/DsfrTabs).
 - `first` : Événement émis lorsque l'utilisateur appuie sur la touche "Home".
 - `last` : Événement émis lorsque l'utilisateur appuie sur la touche "End".
 
-## 🧩 Slots
+## 🧩 Slots
 
 - `default` : Slot pour insérer le contenu de l'onglet.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ::: code-group
 

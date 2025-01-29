@@ -1,6 +1,6 @@
 # Citation - `DsfrQuote`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrQuote` permet d’afficher une citation stylisée, accompagnée d’un auteur, d’une source, et éventuellement d’une image illustrative. Ce composant respecte les standards du [Design System de l'État Français (DSFR)](https://www.systeme-de-design.gouv.fr/) pour offrir une présentation élégante et accessible.
 
@@ -8,7 +8,7 @@ Le composant `DsfrQuote` permet d’afficher une citation stylisée, accompagné
 
 <VIcon name="vi-file-type-storybook" /> La story sur les liens d’évitement sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrquote--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 Le composant affiche :
 
@@ -29,15 +29,15 @@ Le composant affiche :
 | `sourceUrl`  | `string`                          | `''`         | URL de la source, utilisée pour l’attribut `cite` du bloc de citation.     |
 | `quoteImage` | `string`                          | `''`         | URL de l’image illustrative associée à la citation.                        |
 
-## 📡 Événements
+## 📡Événements
 
 Aucun événement spécifique n'est émis par ce composant.
 
-## 🧩 Slots
+## 🧩 Slots
 
 Aucun slot disponible pour ce composant.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ### Exemple de base
 

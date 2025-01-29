@@ -1,6 +1,6 @@
 # Bandeau d'information importante - `DsfrNotice`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le bandeau d’information importante permet aux utilisateurs de voir ou d’accéder à une information importante et temporaire.
 
@@ -10,7 +10,7 @@ Il est affiché sur l’ensemble des pages en desktop et en mobile. Il affiche u
 
 <VIcon name="vi-file-type-storybook" /> La story sur le bandeau d’information importante sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrnotice--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 La notice est composée des éléments suivants :
 

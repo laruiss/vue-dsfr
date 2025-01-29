@@ -1,12 +1,12 @@
 # Regroupement de champs - `DsfrFieldset`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le regroupement de champs permet à l'utilisateur de lier de façon logique et visuelle des éléments de formulaire appartenant à un même ensemble.
 
 <VIcon name="vi-file-type-storybook" /> La story du regroupement de champs sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrfieldset--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 Le regroupement de champs est constitué des éléments suivants :
 
@@ -31,7 +31,7 @@ Le regroupement de champs est constitué des éléments suivants :
 - Un slot pour le contenu de la légende du fieldset (`legend`).
 - Un slot pour l'indice placé au dessus du contenu du fieldset (`hint`).
 
-## 📝 Exemple complet
+## 📝 Exemple complet
 
 ::: code-group
 

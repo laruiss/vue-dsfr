@@ -1,6 +1,6 @@
 # Sommaire - `DsfrSummary`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrSummary` est conçu pour afficher un sommaire accessible et stylisé selon les standards du [Design System de l'État Français (DSFR)](https://www.systeme-de-design.gouv.fr/). Il est idéal pour améliorer la navigation dans une page en proposant des liens vers les différentes sections.
 
@@ -8,7 +8,7 @@ Le composant `DsfrSummary` est conçu pour afficher un sommaire accessible et st
 
 <VIcon name="vi-file-type-storybook" /> La story sur le sommaire sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrsummary--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 Le composant affiche :
 
@@ -29,15 +29,15 @@ Le composant affiche :
 | `link` | `string` | URL ou ancre vers laquelle le lien doit pointer (ex. `#section1`). |
 | `name` | `string` | Texte affiché pour l'ancre.                          |
 
-## 📡 Événements
+## 📡Événements
 
 Aucun événement spécifique n'est émis par ce composant.
 
-## 🧩 Slots
+## 🧩 Slots
 
 Aucun slot disponible pour ce composant.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ### Exemple de base
 

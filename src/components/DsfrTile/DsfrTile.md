@@ -1,6 +1,6 @@
 # Tuile - `DsfrTile`
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 La tuile est un raccourci ou point d’entrée qui redirige les utilisateurs vers des pages de contenu. Elle fait généralement partie d'une collection ou liste de tuiles similaires. La tuile n’est jamais présentée de manière isolée.
 
@@ -10,7 +10,7 @@ Le composant `DsfrTile` est une tuile flexible et stylisée, idéale pour affich
 
 <VIcon name="vi-file-type-storybook" /> La story sur la tuile sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrtile--docs)
 
-## 📐 Structure
+## 📐 Structure
 
 - Un pictogramme `fr-artwork` uniquement (jpg, png, svg, etc), *optionnel* (des SVG sont à trouver dans `@gouvfr/dsfr/dist/artwork/**`)
 - Une première zone de détail, composée d’une précision, sous forme de tags (cliquables ou non) ou de badges (jusqu'à 4 éléments), *optionnels*
@@ -42,15 +42,15 @@ Le composant `DsfrTile` est une tuile flexible et stylisée, idéale pour affich
 | `noBackground` | `boolean`                                                                                 | Si vrai, n'affiche pas de fond dans la tuile.                   | `false`                                                   |             |
 | `grey`         | `boolean`                                                                                 | Si vrai, affiche un fond gris pour la tuile.                    | `false`                                                   |             |
 
-## 📡 Événements
+## 📡Événements
 
 Ce composant ne déclenche pas d'événements spécifiques.
 
-## 🧩 Slots
+## 🧩 Slots
 
 - `header` : Slot pour insérer du contenu personnalisé dans l'en-tête de la tuile.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ::: code-group
 

@@ -4,13 +4,13 @@
 
 <VIcon name="vi-file-type-storybook" /> La story sur la transcription sur le storybook de [VueDsfr](https://storybook.vue-ds.fr/?path=/docs/composants-dsfrtranscription--docs)
 
-## 🌟 Introduction
+## 🌟 Introduction
 
 Le composant `DsfrTranscription` est conçu pour afficher la transcription du contenu d'une vidéo. Il permet aux utilisateurs d'accéder facilement au texte de la vidéo, offrant ainsi une meilleure accessibilité. Le composant peut afficher la transcription dans une section extensible ou dans une fenêtre modale pour une lecture plus confortable.
 
 Le `DsfrTranscription` peut afficher la transcription dans une section extensible ou la charger dans une fenêtre modale grâce à l'utilisation du composant `DsfrModal` et du `Teleport` pour un rendu à l'extérieur de la hiérarchie DOM parent.
 
-## 📐 Structure
+## 📐 Structure
 
 - `<DsfrTranscription>` : Le composant principal.
   - Contient un bouton pour afficher ou masquer la transcription.
@@ -24,15 +24,15 @@ Le `DsfrTranscription` peut afficher la transcription dans une section extensibl
 | `title`   | `string` | Titre de la transcription.                                  | `'Titre de la vidéo'`               |
 | `content` | `string` | Contenu de la transcription.                                | `'Transcription du contenu de la vidéo'` |
 
-## 📡 Événements
+## 📡Événements
 
 Ce composant ne déclenche pas d'événements spécifiques.
 
-## 🧩 Slots
+## 🧩 Slots
 
 - `default` : Slot pour insérer du contenu personnalisé à la place de la transcription par défaut.
 
-## 📝 Exemples
+## 📝 Exemples
 
 ::: code-group
 
